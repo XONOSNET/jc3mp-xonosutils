@@ -1,0 +1,22 @@
+/*
+    font-family: 'Audiowide', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'VT323', monospace;
+*/
+@font-face {
+	font-family: 'Black Ops One';
+	src: url(../fonts/BlackOpsOne-Regular.ttf);
+}
+@font-face {
+	font-family: 'Pacifico';
+	src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+	font-family: 'VT323';
+	src: url(../fonts/VT323-Regular.ttf);
+}
+@font-face {
+	font-family: 'Audiowide';
+	src: url(../fonts/Audiowide-Regular.ttf);
+}

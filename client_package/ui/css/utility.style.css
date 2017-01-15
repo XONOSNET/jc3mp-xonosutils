@@ -1,0 +1,310 @@
+/* 
+	- Utility Stylesheet- 
+		This supplements the stock theme that comes with Inspira.
+	
+	- Color Scheme -
+		Dark Grey (x1): 			#393939;
+		Light Grey (x2):			#6E6E6E;
+		Bright Orange (x3):	#FF5A09;
+		Teal (x4):						#00B2A5;
+		Light Teal (x5):				#00FFEB;
+		Orange (x6):					#FF9900;
+		Sky Blue (x7):				#0091FF;
+		Shaded Blue (x8):		#3D5466;
+*/
+
+/* Theme Background Color Helpers */
+.text-white { color:#FFF!important; }
+.text-white:hover { color:#FFF!important; }
+
+.x-nav-btn { float:right; padding-right:10px; border-radius:0!important; color:#FFF; height:33px!important; border-left:2px thin #CCC; }
+.x0 { background-color:	#5F5F5F!important;}		/* Offset Dark Grey */
+.x1 { background-color:	#393939!important;}		/* Dark Grey */
+.x2 { background-color:	#6E6E6E!important;}		/* Light Grey */
+.x3 { background-color:	#FF5A09!important;}		/* Bright Orange */
+.x4 { background-color:	#00B2A5!important;}		/* Teal */
+.x5 { background-color:	#00FFEB!important;}		/* Light Teal */
+.x6 { background-color:	#FF9900!important;}		/* Orange */
+.x7 { background-color:	#0091FF!important;}		/* Sky Blue */
+.x8 { background-color:	#3D5466!important;}		/* Shaded Blue */
+
+/* Theme Text Helpers */
+.xt0 { color:	#5F5F5F!important;}		/* Offset Dark Grey */
+.xt1 { color:	#393939!important;}		/* Dark Grey */
+.xt2 { color:	#6E6E6E!important;}		/* Light Grey */
+.xt3 { color:	#FF5A09!important;}		/* Bright Orange */
+.xt4 { color:	#00B2A5!important;}		/* Teal */
+.xt5 { color:	#00FFEB!important;}		/* Light Teal */
+.xt6 { color:	#FF9900!important;}		/* Orange */
+.xt7 { color:	#0091FF!important;}		/* Sky Blue */
+.xt8 { color:	#3D5466!important;}		/* Shaded Blue */
+	
+.btn.x0:hover, .btn.x1:hover,.btn.x2:hover,.btn.x3:hover,.btn.x4:hover,.btn.x5:hover,.btn.x6:hover,.btn.x7:hover,.btn.x8:hover { color:#CCC!important; }
+	
+.btn.x0:visited, .btn.x1:visited,.btn.x2:visited,.btn.x3:visited,.btn.x4:visited,.btn.x5:visited,.btn.x6:visited,.btn.x7:visited,.btn.x8:visited { color:#FFF!important; }
+	
+body {
+	/*background-color:#393939!important;*/
+	background: url('../img/bg.png')!important;
+	background-repeat:repeat;
+	overflow:hidden!important;
+	height:100%!important;
+}
+#main-content {
+	overflow:hidden!important;
+	height:100%!important;
+}
+.x-ico {
+	color:#00FFEB;
+}
+.x-hdr {
+	background-color:#6E6E6E;
+	border-bottom:2px solid #FF5A09;
+}
+
+/* UTILITY HELPER CLASSES */
+
+h1,h2,h3,h4,h5,h6 { color:#FFF!important; }
+h1 .hs,h2 .hs,h3 .hs,h4 .hs,h5 .hs,h6 .hs { color:#FF9900!important; font-weight:bold; }
+
+.no-pad {
+	padding:0!important;	
+}
+
+.no-margin {
+	margin:0!important;
+}
+
+.no-pad-left { padding-left:0!important; }
+.no-pad-right { padding-right:0!important; }
+.no-pad-top { padding-top:0!important; }
+.no-pad-bot { padding-bottom:0!important; }
+
+.no-margin-left { margin-left:0!important; }
+.no-margin-right { margin-right:0!important; }
+.no-margin-top { margin-top:0!important; }
+.no-margin-bot { margin-bottom:0!important; }
+
+.x-reg-input {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  height: 42px;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 20px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 21px!important;
+  border-radius: 21px!important;
+  color: rgba(140,140,140,1);
+  text-decoration: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgba(40,40,40,0.4);
+  -webkit-box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+  -webkit-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.x-reg-input:hover {
+  color: rgba(181,181,181,1);
+  background: rgba(0,0,0,0.4);
+  -webkit-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.x-reg-input:focus {
+  width: 100%;
+  cursor: default;
+  padding: -13px 20px 0;
+  color: rgba(255,255,255,1);
+  -webkit-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.left-overlay-ico {
+	position:absolute;
+	left:0px;
+	top:2px;
+	color:#CCC;
+}
+
+.dark-input {
+	background:none;
+	background-color:transparent;
+	color:#FFF;
+	border-bottom:1px solid #424141;
+	border-top:0!important;
+	border-left:0!important;
+	border-right:0!important;
+	padding-left:2px!important;
+	padding-bottom:1px!important;
+	padding-top:0;
+	height:25px;
+}
+
+.category {
+	background-color:#00B2A5;
+	padding:2px;
+	margin:3px;
+	border:1px solid #CCC;
+	text-align:center;
+	font-size:10pt;
+	float:left;
+	white-space: nowrap!important;
+	color:#FFF!important;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently not supported by any browser */
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-box-shadow: 0px 0px 3px #000000;
+	-webkit-box-shadow: 0px 0px 3px #000000;
+	box-shadow: 0px 0px 3px #000000;
+}
+
+.clipgrid { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+
+.clip {
+	transition: padding 0.5s ease;
+	padding:2px;
+	margin:3px;
+	border:1px solid #CCC;
+	text-align:center;
+	font-size:10pt;
+	float:left;
+	white-space: nowrap!important;
+	color:#FFF!important;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently not supported by any browser */
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-box-shadow: 0px 0px 3px #000000;
+	-webkit-box-shadow: 0px 0px 3px #000000;
+	box-shadow: 0px 0px 3px #000000;
+}
+
+.clip:hover {
+	cursor:pointer;
+}
+
+.clip span {
+	display:block!important;
+}
+
+.move-mode:hover {
+	cursor:crosshair!important;
+}
+/* Page Specific */
+
+/* soundboard */
+#soundboard-content {
+	margin-top:5px;
+}
+
+
+.tooltip_templates { display: none; }
+
+/* Base style, essential for every key. */
+kbd, .key {
+	display: inline;
+	display: inline-block;
+	min-width: 1em;
+	padding: .2em .3em;
+	font: normal .85em/1 "Lucida Grande", Lucida, Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: .3em;
+	-webkit-border-radius: .3em;
+	border-radius: .3em;
+	border: none;
+	cursor: default;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+kbd[title], .key[title] {
+	cursor: help;
+}
+
+/* Dark style for display on light background. This is the default style. */
+kbd, kbd.dark, .dark-keys kbd, .key, .key.dark, .dark-keys .key {
+	background: rgb(80, 80, 80);
+	background: -moz-linear-gradient(top, rgb(60, 60, 60), rgb(80, 80, 80));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(60, 60, 60)), to(rgb(80, 80, 80)));
+	color: rgb(250, 250, 250);
+	text-shadow: -1px -1px 0 rgb(70, 70, 70);
+	-moz-box-shadow: inset 0 0 1px rgb(150, 150, 150), inset 0 -.05em .4em rgb(80, 80, 80), 0 .1em 0 rgb(30, 30, 30), 0 .1em .1em rgba(0, 0, 0, .3);
+	-webkit-box-shadow: inset 0 0 1px rgb(150, 150, 150), inset 0 -.05em .4em rgb(80, 80, 80), 0 .1em 0 rgb(30, 30, 30), 0 .1em .1em rgba(0, 0, 0, .3);
+	box-shadow: inset 0 0 1px rgb(150, 150, 150), inset 0 -.05em .4em rgb(80, 80, 80), 0 .1em 0 rgb(30, 30, 30), 0 .1em .1em rgba(0, 0, 0, .3);
+}
+
+/* Light style for display on dark background. */
+kbd.light, .light-keys kbd, .key.light, .light-keys .key {
+	background: rgb(250, 250, 250);
+	background: -moz-linear-gradient(top, rgb(210, 210, 210), rgb(255, 255, 255));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(210, 210, 210)), to(rgb(255, 255, 255)));
+	color:  rgb(50, 50, 50);
+	text-shadow: 0 0 2px rgb(255, 255, 255);
+	-moz-box-shadow: inset 0 0 1px rgb(255, 255, 255), inset 0 0 .4em rgb(200, 200, 200), 0 .1em 0 rgb(130, 130, 130), 0 .11em 0 rgba(0, 0, 0, .4), 0 .1em .11em rgba(0, 0, 0, .9);
+	-webkit-box-shadow: inset 0 0 1px rgb(255, 255, 255), inset 0 0 .4em rgb(200, 200, 200), 0 .1em 0 rgb(130, 130, 130), 0 .11em 0 rgba(0, 0, 0, .4), 0 .1em .11em rgba(0, 0, 0, .9);
+	box-shadow: inset 0 0 1px rgb(255, 255, 255), inset 0 0 .4em rgb(200, 200, 200), 0 .1em 0 rgb(130, 130, 130), 0 .11em 0 rgba(0, 0, 0, .4), 0 .1em .11em rgba(0, 0, 0, .9);
+}
+
+/* Clip Move Mode Selection Border Animation Class */
+
+@-webkit-keyframes blink {
+       0%   	{ border-color: #BB78FF; }
+        50%  	{ border-color: #E63417;  }
+        100% 	{ border-color: #BB78FF; }
+}
+@-moz-keyframes blink {
+       0%   	{ border-color: #BB78FF; }
+        50%  	{ border-color: #E63417;  }
+        100% 	{ border-color: #BB78FF; }
+}
+@-ms-keyframes blink {
+        0%   	{ border-color: #BB78FF; }
+        50%  	{ border-color: #E63417;  }
+        100% 	{ border-color: #BB78FF; }
+}
+.move-mode {
+	border-width:2px;
+	border-style:solid;
+     -webkit-animation: blink 2s infinite ease;
+     -moz-animation:    blink 2s infinite ease;
+     -ms-animation:     blink 2s infinite ease;
+}
+
+.clip-move-mode {
+	transition: padding 0.5s ease;
+	padding:4px!important;
+}
+
+.clip {
+	background: linear-gradient(to right, rgba(211,152,42,1) 0%,rgba(219,41,41,1) 42%,rgba(125,185,232,0) 43%,rgba(125,185,232,0) 100%);
+}
